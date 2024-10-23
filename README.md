@@ -7,7 +7,7 @@ SECRET_KEY = "secret api"
 
 docker compose up --build -d
 
-# YOU CHECK IF SERVER WORKS CORRECTLY AND BINANCE DATA IS RECEIVED:
+# YOU CAN CHECK IF SERVER WORKS CORRECTLY AND BINANCE DATA IS RECEIVED:
 
 Open http://localhost:5000/api and you should see your assets in .json format.
 In case of any problem check if:
