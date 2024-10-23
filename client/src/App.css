@@ -1,0 +1,73 @@
+#root {
+  background-color: #202933;
+  color: #516881;
+  min-height: 100vh;
+}
+
+header {
+  background: #1a232b;
+}
+
+.logo{
+  width: auto;
+}
+
+.summary {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: #79a5c6;
+  background: #23364c;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.assets--table-header > span{
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.assets--table-row {
+  border-bottom: 1px solid #313d49;
+  padding: 5px;
+}
+
+.assets--table-row:hover {
+  background:#232d37;
+}
+
+.assets--table-row select.interval {
+  border: none;
+  background: #1a232b;
+  color: #4b6278;
+  padding: 10px 0;
+  text-align: center;
+  width: 47%;
+}
+
+.assets--table-row button.BtnShowChart {
+  width: 47%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 6%;
+  background: none;
+  border: none;
+  padding: 10px 3px;
+  color: #78b028;
+}
+
+.market-rates {
+  padding-left: 20px;
+}
+
+.market-rates p {
+  margin: 12px;
+  letter-spacing: 1px;
+}
+
+.market-rates > p > span {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #78b028;
+}

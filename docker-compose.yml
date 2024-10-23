@@ -1,0 +1,19 @@
+services:
+  
+  server:
+    build: ./server
+    ports:
+      - 5000:5000
+    env_file:
+      - ./server/.env
+    volumes:
+      - ./server:/usr/src/server
+    command: npm run start
+
+  client:
+    build: ./client
+    ports:
+      - 3000:80
+    restart: always
+    volumes:
+      - ./client/dist:/usr/share/nginx/html
