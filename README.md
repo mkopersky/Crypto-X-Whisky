@@ -9,7 +9,7 @@
 
 2. RUN "npm install" IN THE "client" FOLDER
 
-3. RUN "npm run build" IN THE SERVER FOLDER
+3. RUN "npm run build" IN THE "clinet" FOLDER
 
 ### 4. BUILD DOCKER IMAGE AND START DOCKER CONTAINER (from console in main folder)
 
