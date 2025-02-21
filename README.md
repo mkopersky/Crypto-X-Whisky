@@ -3,7 +3,15 @@
 - API_KEY = "api key"
 - SECRET_KEY = "secret api"
 
-### 2. BUILD DOCKER IMAGE AND START DOCKER CONTAINER (from console in main folder)
+### 2. PREPARE NPM FILES
+
+1. RUN "npm install" IN THE "server" FOLDER
+
+2. RUN "npm install" IN THE "client" FOLDER
+
+3. RUN "npm run build" IN THE SERVER FOLDER
+
+### 4. BUILD DOCKER IMAGE AND START DOCKER CONTAINER (from console in main folder)
 
     docker compose up --build -d
 
